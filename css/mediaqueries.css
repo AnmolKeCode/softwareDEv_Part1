@@ -1,0 +1,50 @@
+@media only screen and (max-width:1024px) {
+    .gridBox {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        transform: translateY(-30px);
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .firstpage {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width:786px) {
+
+    .firstpage .img {
+        max-width: 80%;
+    }
+
+    .firstpage {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+    .firstpage .text {
+        padding-top: 2rem;
+
+    }
+
+    .firstpage .text button {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width:580px) {}
+
+@media only screen and (max-width:420px) {
+    .firstpage .text h2 {
+        font-size: 2.4rem;
+    }
+
+    .gridBox {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
